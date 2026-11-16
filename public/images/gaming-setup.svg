@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#050811"/>
+  <circle cx="400" cy="300" r="250" fill="#8B5CF6" opacity="0.15" filter="blur(60px)"/>
+  <!-- Curved Ultrawide Monitor -->
+  <path d="M 180 180 Q 400 160 620 180 L 600 370 Q 400 350 200 370 Z" fill="#0b0f19" stroke="#8B5CF6" stroke-width="4" filter="drop-shadow(0 0 15px #8B5CF6)"/>
+  <!-- Screen Glow Content -->
+  <path d="M 200 200 Q 400 185 600 200 L 585 350 Q 400 335 215 350 Z" fill="#111827"/>
+  <text x="400" y="270" font-family="'Orbitron', sans-serif" font-size="28" font-weight="bold" fill="#00d2ff" text-anchor="middle" filter="drop-shadow(0 0 8px #00d2ff)">VICTORY ROYALE</text>
+  <text x="400" y="305" font-family="'Orbitron', sans-serif" font-size="16" fill="#8B5CF6" text-anchor="middle">AARU CLUTCH MASTER 22</text>
+  <!-- Stand & Desk -->
+  <polygon points="380,370 420,370 435,460 365,460" fill="#1f2937" stroke="#374151"/>
+  <rect x="100" y="460" width="600" height="25" rx="5" fill="#0a0e17" stroke="#007BFF" stroke-width="2"/>
+  <!-- RGB Keyboard -->
+  <rect x="260" y="445" width="280" height="20" rx="3" fill="#1e293b" stroke="#00d2ff" stroke-width="1.5" filter="drop-shadow(0 0 6px #00d2ff)"/>
+  <text x="400" y="540" font-family="'Orbitron', sans-serif" font-size="20" fill="#9ca3af" text-anchor="middle" letter-spacing="3">CYBER GAMING BATTLESTATION</text>
+</svg>

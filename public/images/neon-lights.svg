@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#020308"/>
+  <g filter="blur(2px)">
+    <path d="M 100 100 C 300 200, 200 400, 500 500" stroke="#00d2ff" stroke-width="6" fill="none" filter="drop-shadow(0 0 15px #00d2ff)"/>
+    <path d="M 700 100 C 500 250, 600 350, 300 520" stroke="#8B5CF6" stroke-width="6" fill="none" filter="drop-shadow(0 0 15px #8B5CF6)"/>
+  </g>
+  <circle cx="400" cy="300" r="140" fill="none" stroke="#007BFF" stroke-width="3" stroke-dasharray="12 8" filter="drop-shadow(0 0 10px #007BFF)"/>
+  <text x="400" y="310" font-family="'Orbitron', sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle" filter="drop-shadow(0 0 10px #00d2ff)">LEVEL 22 AESTHETIC</text>
+</svg>

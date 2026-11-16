@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgCar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="60%" stop-color="#0b1b36"/>
+      <stop offset="100%" stop-color="#02040a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgCar)"/>
+  
+  <!-- Neon Speed Lines -->
+  <line x1="50" y1="450" x2="750" y2="450" stroke="#007BFF" stroke-width="4" stroke-opacity="0.8" filter="drop-shadow(0 0 8px #007BFF)"/>
+  <line x1="100" y1="465" x2="650" y2="465" stroke="#00d2ff" stroke-width="2" stroke-opacity="0.6"/>
+  <line x1="20" y1="480" x2="780" y2="480" stroke="#8B5CF6" stroke-width="3" stroke-opacity="0.7" filter="drop-shadow(0 0 8px #8B5CF6)"/>
+
+  <!-- Futuristic Supercar Silhouette -->
+  <path d="M 180 430 L 250 360 L 370 320 L 520 320 L 610 380 L 670 410 L 660 440 L 170 440 Z" fill="#0f172a" stroke="#00d2ff" stroke-width="3"/>
+  
+  <!-- Windshield -->
+  <polygon points="360,330 500,330 460,370 340,370" fill="#1e293b" stroke="#007BFF" stroke-width="1.5"/>
+
+  <!-- Wheels with Neon Rim Glow -->
+  <circle cx="260" cy="440" r="42" fill="#030712" stroke="#00d2ff" stroke-width="4" filter="drop-shadow(0 0 10px #00d2ff)"/>
+  <circle cx="260" cy="440" r="18" fill="#1e293b" stroke="#fff" stroke-width="2"/>
+  <circle cx="580" cy="440" r="42" fill="#030712" stroke="#00d2ff" stroke-width="4" filter="drop-shadow(0 0 10px #00d2ff)"/>
+  <circle cx="580" cy="440" r="18" fill="#1e293b" stroke="#fff" stroke-width="2"/>
+
+  <!-- Tail Light Glow -->
+  <polygon points="175,410 190,410 185,425 170,425" fill="#ef4444" filter="drop-shadow(-10px 0 15px #ef4444)"/>
+
+  <!-- Headlight Beam -->
+  <polygon points="665,415 800,390 800,450 670,430" fill="url(#bgCar)" opacity="0.6"/>
+  <polygon points="665,415 800,400 800,430 670,422" fill="#00d2ff" opacity="0.4" filter="blur(6px)"/>
+
+  <text x="400" y="240" font-family="'Orbitron', sans-serif" font-size="34" font-weight="bold" fill="#00d2ff" text-anchor="middle" filter="drop-shadow(0 0 12px #007BFF)">MIDNIGHT HYPERCAR</text>
+  <text x="400" y="280" font-family="'Montserrat', sans-serif" font-size="16" fill="#9ca3af" text-anchor="middle" letter-spacing="4">0 TO 100 IN ADRENALINE • AARAV'S DREAM</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#04060e"/>
+  <circle cx="400" cy="280" r="190" fill="#fbbf24" opacity="0.15" filter="blur(60px)"/>
+  <!-- Champagne Flutes Clinking -->
+  <polygon points="340,320 370,390 350,390 370,440 330,440" fill="#1e293b" stroke="#00d2ff" stroke-width="2"/>
+  <polygon points="460,320 430,390 450,390 430,440 470,440" fill="#1e293b" stroke="#8B5CF6" stroke-width="2"/>
+  <!-- Clink Sparkle -->
+  <polygon points="400,290 405,310 425,315 405,320 400,340 395,320 375,315 395,310" fill="#fbbf24" filter="drop-shadow(0 0 12px #fbbf24)"/>
+  <text x="400" y="520" font-family="'Orbitron', sans-serif" font-size="26" font-weight="bold" fill="#fff" text-anchor="middle" filter="drop-shadow(0 0 10px #fbbf24)">CHEERS TO AARAV SHARMA</text>
+  <text x="400" y="555" font-family="'Montserrat', sans-serif" font-size="16" fill="#9ca3af" text-anchor="middle" letter-spacing="3">RAISING A GLASS TO 22 YEARS OF GREATNESS</text>
+</svg>
