@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-burgundy: #461927;
+  --color-burgundy-dark: #2E0E18;
+  --color-gold: #C5A059;
+  --color-gold-light: #E5C378;
+  --color-ivory: #FAF7F2;
+  --color-warm: #F4EFEA;
+}
+
+/* Custom Wedding Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F4EFEA;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #C5A059, #461927);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9E7C38;
+}
+
+body {
+  background-color: #FAF7F2;
+  color: #2D2326;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Classic Typography */
+h1, h2, h3, .font-heading {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  letter-spacing: 0.02em;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.15em;
+}
+
+.font-script {
+  font-family: 'Great Vibes', cursive;
+}
+
+/* Gold Text Gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #E5C378 0%, #C5A059 50%, #9E7C38 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Gold Border Frame */
+.royal-border {
+  border: 1px solid rgba(197, 160, 89, 0.4);
+}
+
+.royal-border-double {
+  border: 3px double rgba(197, 160, 89, 0.6);
+}
+
+/* Smooth Paper Shadows */
+.paper-card {
+  background-color: #FFFFFF;
+  border: 1px solid #EFE7DC;
+  box-shadow: 0 4px 20px -2px rgba(70, 25, 39, 0.06);
+}
+
+/* Equalizer Bars Animation */
+.eq-bar {
+  animation: eqJump 1s infinite alternate ease-in-out;
+}
+.eq-bar:nth-child(2) { animation-delay: 0.25s; }
+.eq-bar:nth-child(3) { animation-delay: 0.45s; }
+.eq-bar:nth-child(4) { animation-delay: 0.15s; }
+
+@keyframes eqJump {
+  0% { height: 4px; }
+  100% { height: 16px; }
+}
+
+/* Wax Seal Pulsing */
+.wax-seal {
+  background: radial-gradient(circle at 35% 35%, #8B1E3F 0%, #461927 70%, #230811 100%);
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.3), 0 8px 24px rgba(70, 25, 39, 0.4);
+}
+
+/* Reduced Motion Preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
